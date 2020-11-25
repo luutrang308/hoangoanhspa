@@ -15,4 +15,10 @@ $(document).ready(function(){
             }
         }, ]
     });
+    $('.slider_img').slick({
+        dots: false,
+        slidesToShow: 1,
+        prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/galley2.png' alt=''></button>",
+        nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/gallery3.png' alt=''></button>",
+    });
 });
